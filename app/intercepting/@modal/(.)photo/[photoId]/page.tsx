@@ -12,8 +12,7 @@ export default async function PhotoModal({ params }: { params: Params }) {
 	}
 
 	return (
-		//'[&>button:last-child]:hidden' to hide the close button in the modal (DialogContent)
-		<Modal className='backdrop-blur-sm bg-black/30 flex items-center justify-center [&>button:last-child]:hidden'>
+		<Modal className='backdrop-blur-sm bg-black/30 flex items-center justify-center'>
 			<Card className='max-w-2xl w-full shadow-2xl overflow-hidden border-0'>
 				<div className='relative'>
 					<Image

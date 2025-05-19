@@ -12,7 +12,7 @@ export default async function PhotoModal({ params }: { params: Params }) {
 	}
 
 	return (
-		<Modal className='backdrop-blur-sm bg-black/30 flex items-center justify-center'>
+		<Modal className='backdrop-blur-sm bg-black/30 flex items-center justify-center [&>button:last-child]:hidden'>
 			<Card className='max-w-2xl w-full shadow-2xl overflow-hidden border-0'>
 				<div className='relative'>
 					<Image
